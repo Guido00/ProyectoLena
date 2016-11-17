@@ -1,0 +1,14 @@
+dist/
+nbproject/
+build/
+build.*
+*.properties
+lib/
+
+/dist/
+/nbproject/
+/build/
+/build.*
+/*.properties
+/HibernateUtil.java
+/lib/
