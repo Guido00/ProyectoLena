@@ -77,7 +77,6 @@ public class IPantallaNuevoCliente extends javax.swing.JDialog {
         jLabel6.setText("Localidad");
 
         jComboBoxLocalidad.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
-        jComboBoxLocalidad.setModel(new javax.swing.DefaultComboBoxModel(new String[] { " ", "Localidad1", "Localidad2", "Localidad3", " " }));
         jComboBoxLocalidad.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jComboBoxLocalidadActionPerformed(evt);
