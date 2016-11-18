@@ -179,6 +179,10 @@
                 <Column editable="true" title="H/D" type="java.lang.Boolean"/>
               </Table>
             </Property>
+            <Property name="gridColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="cc" green="cc" red="cc" type="rgb"/>
+            </Property>
+            <Property name="showVerticalLines" type="boolean" value="false"/>
           </Properties>
         </Component>
       </SubComponents>

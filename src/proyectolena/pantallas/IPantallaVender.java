@@ -205,6 +205,8 @@ public class IPantallaVender extends javax.swing.JDialog {
                 "Cantidad", "Articulo", "Talle", "Precio", "Importe"
             }
         ));
+        jTableVenta.setGridColor(new java.awt.Color(204, 204, 204));
+        jTableVenta.setShowVerticalLines(false);
         jScrollPane1.setViewportView(jTableVenta);
 
         jLabel18.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N

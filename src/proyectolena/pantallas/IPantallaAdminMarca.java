@@ -87,6 +87,8 @@ public class IPantallaAdminMarca extends javax.swing.JDialog {
             }
         });
         jTable1.setToolTipText("");
+        jTable1.setGridColor(new java.awt.Color(204, 204, 204));
+        jTable1.setShowVerticalLines(false);
         jScrollPane1.setViewportView(jTable1);
 
         jButtonCancelar.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N

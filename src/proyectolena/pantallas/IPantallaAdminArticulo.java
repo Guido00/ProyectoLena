@@ -1,5 +1,6 @@
 package proyectolena.pantallas;
 
+import java.awt.Color;
 import java.awt.Frame;
 
 public class IPantallaAdminArticulo extends javax.swing.JDialog {
@@ -9,6 +10,7 @@ public class IPantallaAdminArticulo extends javax.swing.JDialog {
     public IPantallaAdminArticulo(java.awt.Frame parent, boolean modal) {
         super(parent, modal);
         initComponents();
+        this.getContentPane().setBackground(Color.white);
     }
 
     @SuppressWarnings("unchecked")
@@ -28,7 +30,10 @@ public class IPantallaAdminArticulo extends javax.swing.JDialog {
         jLabel3 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        setTitle("Administrar Articulo");
+        setBackground(new java.awt.Color(255, 255, 255));
 
+        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Filtros necesarios", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 12), new java.awt.Color(51, 51, 255))); // NOI18N
 
         jLabel1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
@@ -39,6 +44,7 @@ public class IPantallaAdminArticulo extends javax.swing.JDialog {
 
         jTextField2.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
 
+        jButton1.setBackground(new java.awt.Color(255, 255, 255));
         jButton1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jButton1.setText("Filtrar");
 
@@ -57,7 +63,7 @@ public class IPantallaAdminArticulo extends javax.swing.JDialog {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jComboBox1, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jTextField2, javax.swing.GroupLayout.DEFAULT_SIZE, 227, Short.MAX_VALUE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 207, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 208, Short.MAX_VALUE)
                 .addComponent(jButton1)
                 .addContainerGap())
         );
@@ -97,8 +103,12 @@ public class IPantallaAdminArticulo extends javax.swing.JDialog {
                 "Talle", "Color", "Talles", "Tipo", "Precio"
             }
         ));
+        jTable1.setGridColor(new java.awt.Color(204, 204, 204));
+        jTable1.setSelectionBackground(new java.awt.Color(153, 153, 255));
+        jTable1.setShowVerticalLines(false);
         jScrollPane1.setViewportView(jTable1);
 
+        jButton2.setBackground(new java.awt.Color(255, 255, 255));
         jButton2.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jButton2.setText("Cancelar");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -107,9 +117,11 @@ public class IPantallaAdminArticulo extends javax.swing.JDialog {
             }
         });
 
+        jButton3.setBackground(new java.awt.Color(255, 255, 255));
         jButton3.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jButton3.setText("Aceptar");
 
+        jLabel3.setBackground(new java.awt.Color(255, 255, 255));
         jLabel3.setForeground(new java.awt.Color(255, 0, 0));
         jLabel3.setText("Está bien mostrar tantas columnas? se va a complicar para filtrar y dividir color y talle.. ya lo pensamos y no es facil");
 
@@ -130,7 +142,7 @@ public class IPantallaAdminArticulo extends javax.swing.JDialog {
                     .addGroup(layout.createSequentialGroup()
                         .addGap(10, 10, 10)
                         .addComponent(jLabel3)
-                        .addGap(0, 28, Short.MAX_VALUE)))
+                        .addGap(0, 29, Short.MAX_VALUE)))
                 .addContainerGap())
         );
         layout.setVerticalGroup(

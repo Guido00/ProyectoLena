@@ -90,6 +90,8 @@ public class IPantallaCCorriente extends javax.swing.JDialog {
                 "N°", "Fecha", "Fecha Compra", "Marca", "Tipo", "Precio"
             }
         ));
+        jTable1.setGridColor(new java.awt.Color(204, 204, 204));
+        jTable1.setShowVerticalLines(false);
         jScrollPane1.setViewportView(jTable1);
 
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Detalles de producto", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 12), new java.awt.Color(51, 51, 255))); // NOI18N

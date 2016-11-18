@@ -98,6 +98,8 @@ public class IPantallaAdminTalle extends javax.swing.JDialog {
                 return types [columnIndex];
             }
         });
+        jTable1.setGridColor(new java.awt.Color(204, 204, 204));
+        jTable1.setShowVerticalLines(false);
         jScrollPane1.setViewportView(jTable1);
 
         jButton2.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N

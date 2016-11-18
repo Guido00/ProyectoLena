@@ -278,6 +278,8 @@ public class IPantallaCompra extends javax.swing.JDialog {
                 "N°", "Marca", "Color", "Fecha", "Talle", "Precio", "Cantidad"
             }
         ));
+        jTable1.setGridColor(new java.awt.Color(204, 204, 204));
+        jTable1.setShowVerticalLines(false);
         jScrollPane1.setViewportView(jTable1);
 
         jMenu1.setText("Archivo");
