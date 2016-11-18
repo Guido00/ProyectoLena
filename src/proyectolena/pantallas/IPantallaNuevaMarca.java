@@ -23,6 +23,7 @@ public class IPantallaNuevaMarca extends javax.swing.JDialog {
         jButtonCancelar = new javax.swing.JButton();
 
         setTitle("Nueva Marca");
+        setBackground(new java.awt.Color(255, 255, 255));
         setResizable(false);
 
         jLabel2.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
@@ -35,6 +36,7 @@ public class IPantallaNuevaMarca extends javax.swing.JDialog {
             }
         });
 
+        jButtonAceptar.setBackground(new java.awt.Color(255, 255, 255));
         jButtonAceptar.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jButtonAceptar.setText("Aceptar");
         jButtonAceptar.addActionListener(new java.awt.event.ActionListener() {
@@ -43,6 +45,7 @@ public class IPantallaNuevaMarca extends javax.swing.JDialog {
             }
         });
 
+        jButtonCancelar.setBackground(new java.awt.Color(255, 255, 255));
         jButtonCancelar.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jButtonCancelar.setText("Cancelar");
         jButtonCancelar.addActionListener(new java.awt.event.ActionListener() {

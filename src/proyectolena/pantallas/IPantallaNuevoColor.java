@@ -20,6 +20,7 @@ public class IPantallaNuevoColor extends javax.swing.JDialog {
         jButtonAceptar = new javax.swing.JButton();
         jTextFieldColor = new javax.swing.JTextField();
 
+        setBackground(new java.awt.Color(255, 255, 255));
         setResizable(false);
 
         jLabel1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
@@ -27,6 +28,7 @@ public class IPantallaNuevoColor extends javax.swing.JDialog {
 
         jColorChooser1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
 
+        jButtonCancelar.setBackground(new java.awt.Color(255, 255, 255));
         jButtonCancelar.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jButtonCancelar.setText("Cancelar");
         jButtonCancelar.addActionListener(new java.awt.event.ActionListener() {
@@ -35,6 +37,7 @@ public class IPantallaNuevoColor extends javax.swing.JDialog {
             }
         });
 
+        jButtonAceptar.setBackground(new java.awt.Color(255, 255, 255));
         jButtonAceptar.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jButtonAceptar.setText("Aceptar");
         jButtonAceptar.addActionListener(new java.awt.event.ActionListener() {

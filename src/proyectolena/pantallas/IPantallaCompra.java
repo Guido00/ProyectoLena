@@ -54,6 +54,7 @@ public class IPantallaCompra extends javax.swing.JDialog {
         setBackground(new java.awt.Color(255, 255, 255));
         setResizable(false);
 
+        jButton1.setBackground(new java.awt.Color(255, 255, 255));
         jButton1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jButton1.setText("Cancelar");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -62,12 +63,15 @@ public class IPantallaCompra extends javax.swing.JDialog {
             }
         });
 
+        jButton2.setBackground(new java.awt.Color(255, 255, 255));
         jButton2.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jButton2.setText("Aceptar");
 
+        jButton7.setBackground(new java.awt.Color(255, 255, 255));
         jButton7.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jButton7.setText("Limpiar");
 
+        jPanel3.setBackground(new java.awt.Color(255, 255, 255));
         jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Compra", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 12), new java.awt.Color(51, 51, 255))); // NOI18N
 
         jLabel4.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
@@ -76,6 +80,7 @@ public class IPantallaCompra extends javax.swing.JDialog {
         jComboBoxMarca.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jComboBoxMarca.setModel(new javax.swing.DefaultComboBoxModel(new String[] { " ", "Marca1", "Marca2", "Marca3", "Marca4" }));
 
+        jButton3.setBackground(new java.awt.Color(255, 255, 255));
         jButton3.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jButton3.setText("+");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
@@ -105,6 +110,7 @@ public class IPantallaCompra extends javax.swing.JDialog {
         jComboBoxTipo.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jComboBoxTipo.setModel(new javax.swing.DefaultComboBoxModel(new String[] { " ", "Tipo1", "Tipo2", "Tipo3" }));
 
+        jButton4.setBackground(new java.awt.Color(255, 255, 255));
         jButton4.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jButton4.setText("+");
         jButton4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
@@ -128,6 +134,7 @@ public class IPantallaCompra extends javax.swing.JDialog {
         jLabel10.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel10.setText("Color");
 
+        jButton5.setBackground(new java.awt.Color(255, 255, 255));
         jButton5.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/iconos/1478587228_Untitled-2-23.png"))); // NOI18N
         jButton5.addActionListener(new java.awt.event.ActionListener() {
@@ -139,6 +146,7 @@ public class IPantallaCompra extends javax.swing.JDialog {
         jComboBoxColor.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jComboBoxColor.setModel(new javax.swing.DefaultComboBoxModel(new String[] { " ", "Color1", "Color2", "Color3", "Color4" }));
 
+        jButton6.setBackground(new java.awt.Color(255, 255, 255));
         jButton6.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jButton6.setText("+");
         jButton6.addActionListener(new java.awt.event.ActionListener() {
@@ -147,6 +155,7 @@ public class IPantallaCompra extends javax.swing.JDialog {
             }
         });
 
+        jButtonAgregarNuevaCompra.setBackground(new java.awt.Color(255, 255, 255));
         jButtonAgregarNuevaCompra.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jButtonAgregarNuevaCompra.setText("Agregar");
 
@@ -159,6 +168,7 @@ public class IPantallaCompra extends javax.swing.JDialog {
 
         jComboBoxDefArticulo.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
 
+        jButtonAgregarDefArticulo.setBackground(new java.awt.Color(255, 255, 255));
         jButtonAgregarDefArticulo.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jButtonAgregarDefArticulo.setText("+");
 
@@ -281,6 +291,8 @@ public class IPantallaCompra extends javax.swing.JDialog {
         jTable1.setGridColor(new java.awt.Color(204, 204, 204));
         jTable1.setShowVerticalLines(false);
         jScrollPane1.setViewportView(jTable1);
+
+        jMenuBar1.setBackground(new java.awt.Color(255, 255, 255));
 
         jMenu1.setText("Archivo");
         jMenu1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N

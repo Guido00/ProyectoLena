@@ -34,6 +34,7 @@ public class IPantallaCCorriente extends javax.swing.JDialog {
         jMenu2 = new javax.swing.JMenu();
 
         setTitle("Cuenta Corriente");
+        setBackground(new java.awt.Color(255, 255, 255));
         setResizable(false);
         addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyPressed(java.awt.event.KeyEvent evt) {
@@ -49,6 +50,7 @@ public class IPantallaCCorriente extends javax.swing.JDialog {
 
         jTextField1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
 
+        jButton1.setBackground(new java.awt.Color(255, 255, 255));
         jButton1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jButton1.setText("+");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -65,6 +67,7 @@ public class IPantallaCCorriente extends javax.swing.JDialog {
         jLabel3.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel3.setText("Fecha");
 
+        jButton2.setBackground(new java.awt.Color(255, 255, 255));
         jButton2.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jButton2.setText("Cancelar");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -73,6 +76,7 @@ public class IPantallaCCorriente extends javax.swing.JDialog {
             }
         });
 
+        jButton3.setBackground(new java.awt.Color(255, 255, 255));
         jButton3.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jButton3.setText("Aceptar");
 
@@ -94,6 +98,7 @@ public class IPantallaCCorriente extends javax.swing.JDialog {
         jTable1.setShowVerticalLines(false);
         jScrollPane1.setViewportView(jTable1);
 
+        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Detalles de producto", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 12), new java.awt.Color(51, 51, 255))); // NOI18N
 
         jLabel4.setText("FECHA COMPRA ES DIFERENTE A FECHA DE ULTIMO PAGO");
@@ -158,6 +163,8 @@ public class IPantallaCCorriente extends javax.swing.JDialog {
                 true)));
     dateChooserCombo1.setFieldFont(new java.awt.Font("Arial", java.awt.Font.PLAIN, 12));
     dateChooserCombo1.setNavigateFont(new java.awt.Font("Arial", java.awt.Font.PLAIN, 12));
+
+    jMenuBar1.setBackground(new java.awt.Color(255, 255, 255));
 
     jMenu1.setText("Archivo");
     jMenu1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N

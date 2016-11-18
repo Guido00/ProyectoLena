@@ -72,9 +72,11 @@ public class IPantallaVender extends javax.swing.JDialog {
         jMenu2 = new javax.swing.JMenu();
 
         setTitle("Ventas");
+        setBackground(new java.awt.Color(255, 255, 255));
         setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         setResizable(false);
 
+        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Detalle", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 11), new java.awt.Color(51, 51, 255))); // NOI18N
 
         jLabel3.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
@@ -173,6 +175,7 @@ public class IPantallaVender extends javax.swing.JDialog {
                 .addContainerGap())
         );
 
+        jButtonCancelar.setBackground(new java.awt.Color(255, 255, 255));
         jButtonCancelar.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jButtonCancelar.setText("Cancelar");
         jButtonCancelar.addActionListener(new java.awt.event.ActionListener() {
@@ -181,6 +184,7 @@ public class IPantallaVender extends javax.swing.JDialog {
             }
         });
 
+        jButtonAceptar.setBackground(new java.awt.Color(255, 255, 255));
         jButtonAceptar.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jButtonAceptar.setText("Aceptar");
 
@@ -215,6 +219,7 @@ public class IPantallaVender extends javax.swing.JDialog {
         jLabel19.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel19.setText("--");
 
+        jPanel2.setBackground(new java.awt.Color(255, 255, 255));
         jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Venta", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 12), new java.awt.Color(51, 51, 255))); // NOI18N
         jPanel2.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
 
@@ -275,6 +280,7 @@ public class IPantallaVender extends javax.swing.JDialog {
 
         jTextField3.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
 
+        jButtonNuevoCliente.setBackground(new java.awt.Color(255, 255, 255));
         jButtonNuevoCliente.setIcon(new javax.swing.ImageIcon(getClass().getResource("/iconos/1478584789_add_user.png"))); // NOI18N
 
         dateChooserCombo1.setCurrentView(new datechooser.view.appearance.AppearancesList("custom",
@@ -405,6 +411,8 @@ public class IPantallaVender extends javax.swing.JDialog {
             .addComponent(jButtonAgregar)
             .addContainerGap())
     );
+
+    jMenuBar1.setBackground(new java.awt.Color(255, 255, 255));
 
     jMenu1.setText("Archivo");
     jMenu1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N

@@ -49,8 +49,10 @@ public class IPantallaCondicional extends javax.swing.JDialog {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("Condicional");
+        setBackground(new java.awt.Color(255, 255, 255));
         setResizable(false);
 
+        jButton2.setBackground(new java.awt.Color(255, 255, 255));
         jButton2.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jButton2.setText("Cancelar");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -59,6 +61,7 @@ public class IPantallaCondicional extends javax.swing.JDialog {
             }
         });
 
+        jButton3.setBackground(new java.awt.Color(255, 255, 255));
         jButton3.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jButton3.setText("Aceptar");
 
@@ -84,6 +87,7 @@ public class IPantallaCondicional extends javax.swing.JDialog {
         jTable1.setShowVerticalLines(false);
         jScrollPane1.setViewportView(jTable1);
 
+        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Datos condicional", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 12), new java.awt.Color(51, 51, 255))); // NOI18N
 
         jLabel2.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
@@ -102,6 +106,7 @@ public class IPantallaCondicional extends javax.swing.JDialog {
         jComboBox1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { " ", "Color1", "Color2", "Color3", "Color4" }));
 
+        jButton1.setBackground(new java.awt.Color(255, 255, 255));
         jButton1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/iconos/1478584789_add_user.png"))); // NOI18N
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -128,6 +133,7 @@ public class IPantallaCondicional extends javax.swing.JDialog {
         jComboBox4.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jComboBox4.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "  ", "Talle1", "Talle2", "Talle3" }));
 
+        jButton4.setBackground(new java.awt.Color(255, 255, 255));
         jButton4.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jButton4.setText("Agregar");
 
@@ -209,6 +215,8 @@ public class IPantallaCondicional extends javax.swing.JDialog {
 
         jLabel7.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel7.setText("TOTAL");
+
+        jMenuBar1.setBackground(new java.awt.Color(255, 255, 255));
 
         jMenu1.setText("Archivo");
         jMenu1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N

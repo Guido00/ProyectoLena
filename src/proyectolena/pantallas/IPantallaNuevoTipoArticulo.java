@@ -20,6 +20,7 @@ public class IPantallaNuevoTipoArticulo extends javax.swing.JDialog {
         jButton2 = new javax.swing.JButton();
 
         setTitle("Nuevo Tipo de Articulo");
+        setBackground(new java.awt.Color(255, 255, 255));
         setResizable(false);
 
         jLabel1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
@@ -27,6 +28,7 @@ public class IPantallaNuevoTipoArticulo extends javax.swing.JDialog {
 
         jTextFieldTipoArticulo.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
 
+        jButton1.setBackground(new java.awt.Color(255, 255, 255));
         jButton1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jButton1.setText("Cancelar");
         jButton1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
@@ -36,6 +38,7 @@ public class IPantallaNuevoTipoArticulo extends javax.swing.JDialog {
             }
         });
 
+        jButton2.setBackground(new java.awt.Color(255, 255, 255));
         jButton2.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jButton2.setText("Aceptar");
         jButton2.addActionListener(new java.awt.event.ActionListener() {

@@ -25,12 +25,16 @@ public class IPantallaAdminMarca extends javax.swing.JDialog {
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        setBackground(new java.awt.Color(255, 255, 255));
 
+        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Detalles Marcas", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 12), new java.awt.Color(255, 0, 0))); // NOI18N
 
+        jButtonEditar.setBackground(new java.awt.Color(255, 255, 255));
         jButtonEditar.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jButtonEditar.setText("Editar");
 
+        jButtonNuevo.setBackground(new java.awt.Color(255, 255, 255));
         jButtonNuevo.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jButtonNuevo.setText("Nuevo");
         jButtonNuevo.addActionListener(new java.awt.event.ActionListener() {
@@ -91,6 +95,7 @@ public class IPantallaAdminMarca extends javax.swing.JDialog {
         jTable1.setShowVerticalLines(false);
         jScrollPane1.setViewportView(jTable1);
 
+        jButtonCancelar.setBackground(new java.awt.Color(255, 255, 255));
         jButtonCancelar.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jButtonCancelar.setText("Cancelar");
         jButtonCancelar.addActionListener(new java.awt.event.ActionListener() {
@@ -99,6 +104,7 @@ public class IPantallaAdminMarca extends javax.swing.JDialog {
             }
         });
 
+        jButtonAceptar.setBackground(new java.awt.Color(255, 255, 255));
         jButtonAceptar.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jButtonAceptar.setText("Aceptar");
 

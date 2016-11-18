@@ -40,6 +40,7 @@ public class IPantallaNuevoCliente extends javax.swing.JDialog {
         jTextFieldApellido = new javax.swing.JTextField();
 
         setTitle("Nuevo Cliente");
+        setBackground(new java.awt.Color(255, 255, 255));
         setResizable(false);
 
         jLabel1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
@@ -57,6 +58,7 @@ public class IPantallaNuevoCliente extends javax.swing.JDialog {
 
         jTextFieldTelefono.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
 
+        jButton1.setBackground(new java.awt.Color(255, 255, 255));
         jButton1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jButton1.setText("Cancelar");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -65,6 +67,7 @@ public class IPantallaNuevoCliente extends javax.swing.JDialog {
             }
         });
 
+        jButton2.setBackground(new java.awt.Color(255, 255, 255));
         jButton2.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jButton2.setText("Aceptar");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
