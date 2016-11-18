@@ -3,13 +3,13 @@ package proyectolena.pantallas;
 import java.awt.Color;
 import java.awt.Image;
 import java.awt.Toolkit;
-import javax.swing.BorderFactory;
 import proyectolena.repositorios.RepositorioMarca;
 
 public class IPantallaPrincipal extends javax.swing.JFrame {
 
     public IPantallaPrincipal() {
         initComponents();
+        
         RepositorioMarca rm = new RepositorioMarca();
         jComboBoxMarca.addItem("");
         jTable2.setDefaultEditor(Object.class, null);
@@ -272,7 +272,7 @@ public class IPantallaPrincipal extends javax.swing.JFrame {
             }
         });
         jPanel3.add(jButtonAbrirCompra);
-        jButtonAbrirCompra.setBounds(430, 40, 201, 51);
+        jButtonAbrirCompra.setBounds(430, 40, 201, 50);
 
         jButtonAbrirCondicional.setBackground(new java.awt.Color(255, 255, 255));
         jButtonAbrirCondicional.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
@@ -286,7 +286,7 @@ public class IPantallaPrincipal extends javax.swing.JFrame {
             }
         });
         jPanel3.add(jButtonAbrirCondicional);
-        jButtonAbrirCondicional.setBounds(220, 40, 201, 51);
+        jButtonAbrirCondicional.setBounds(220, 40, 200, 50);
 
         jButtonAbrirCCorriente.setBackground(new java.awt.Color(255, 255, 255));
         jButtonAbrirCCorriente.setFont(new java.awt.Font("Arial Rounded MT Bold", 1, 18)); // NOI18N
@@ -299,7 +299,7 @@ public class IPantallaPrincipal extends javax.swing.JFrame {
             }
         });
         jPanel3.add(jButtonAbrirCCorriente);
-        jButtonAbrirCCorriente.setBounds(640, 40, 201, 51);
+        jButtonAbrirCCorriente.setBounds(640, 40, 201, 50);
 
         jPanel7.setBackground(new java.awt.Color(255, 255, 255));
         jPanel7.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createTitledBorder(null, "", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 11), new java.awt.Color(204, 0, 0)), "Filtros", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 12), new java.awt.Color(51, 51, 255))); // NOI18N
@@ -384,12 +384,15 @@ public class IPantallaPrincipal extends javax.swing.JFrame {
 
         jMenuBar1.setBackground(new java.awt.Color(255, 255, 255));
 
+        jMenu1.setBackground(new java.awt.Color(255, 255, 255));
         jMenu1.setText("Archivo");
         jMenu1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
 
+        jMenu3.setBackground(new java.awt.Color(255, 255, 255));
         jMenu3.setText("Administrar");
         jMenu3.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
 
+        jMenuItem4.setBackground(new java.awt.Color(255, 255, 255));
         jMenuItem4.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jMenuItem4.setText("Articulos");
         jMenuItem4.addActionListener(new java.awt.event.ActionListener() {
@@ -399,6 +402,7 @@ public class IPantallaPrincipal extends javax.swing.JFrame {
         });
         jMenu3.add(jMenuItem4);
 
+        jMenuItem2.setBackground(new java.awt.Color(255, 255, 255));
         jMenuItem2.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jMenuItem2.setText("Marcas");
         jMenuItem2.addActionListener(new java.awt.event.ActionListener() {
@@ -408,6 +412,7 @@ public class IPantallaPrincipal extends javax.swing.JFrame {
         });
         jMenu3.add(jMenuItem2);
 
+        jMenuItem3.setBackground(new java.awt.Color(255, 255, 255));
         jMenuItem3.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jMenuItem3.setText("Talle");
         jMenuItem3.addActionListener(new java.awt.event.ActionListener() {
@@ -419,6 +424,7 @@ public class IPantallaPrincipal extends javax.swing.JFrame {
 
         jMenu1.add(jMenu3);
 
+        jMenuItem1.setBackground(new java.awt.Color(255, 255, 255));
         jMenuItem1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jMenuItem1.setText("Salir");
         jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
@@ -430,23 +436,28 @@ public class IPantallaPrincipal extends javax.swing.JFrame {
 
         jMenuBar1.add(jMenu1);
 
+        jMenu4.setBackground(new java.awt.Color(255, 255, 255));
         jMenu4.setText("Nuevo");
         jMenu4.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
 
+        jMenuItem5.setBackground(new java.awt.Color(255, 255, 255));
         jMenuItem5.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jMenuItem5.setText("Articulo");
         jMenu4.add(jMenuItem5);
 
+        jMenuItem6.setBackground(new java.awt.Color(255, 255, 255));
         jMenuItem6.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jMenuItem6.setText("Talle");
         jMenu4.add(jMenuItem6);
 
+        jMenuItem7.setBackground(new java.awt.Color(255, 255, 255));
         jMenuItem7.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jMenuItem7.setText("Temporada");
         jMenu4.add(jMenuItem7);
 
         jMenuBar1.add(jMenu4);
 
+        jMenu2.setBackground(new java.awt.Color(255, 255, 255));
         jMenu2.setText("Editar");
         jMenu2.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jMenuBar1.add(jMenu2);

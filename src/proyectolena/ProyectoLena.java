@@ -1,6 +1,5 @@
 package proyectolena;
 
-import org.hibernate.Session;
 import proyectolena.BDLena.HibernateUtil;
 import proyectolena.pantallas.IPantallaPrincipal;
 
